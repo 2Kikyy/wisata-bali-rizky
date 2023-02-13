@@ -12,10 +12,19 @@
     <style name="Poppins4">
         <item name="android:fontFamily">@font/poppins_semibold</item>
     </style>
+
     <style name="Outfit1">
         <item name="android:fontFamily">@font/outfit_bold</item>
     </style>
     <style name="Outfit2">
         <item name="android:fontFamily">@font/outfit_medium</item>
+    </style>
+
+    <style name="DmSans1">
+        <item name="android:fontFamily">@font/dmsans_bold</item>
+    </style>
+
+    <style name="DmSans2">
+        <item name="android:fontFamily">@font/dmsans_regular</item>
     </style>
 </resources>
