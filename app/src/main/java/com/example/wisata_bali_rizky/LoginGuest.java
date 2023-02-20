@@ -13,10 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginGuest extends AppCompatActivity {
-    TextView txtToRegis;
-
-    // Declaration EditTexts
-    EditText editTextUsername, editTextPassword;
+    TextView txtToRegis, txtUsername, txtPassword;
 
     // Declaration Button
     Button btnLogin;
@@ -31,8 +28,8 @@ public class LoginGuest extends AppCompatActivity {
         setContentView(R.layout.activity_login_guest);
 
         databaseHelper = new DatabaseHelper(this);
-        editTextUsername = findViewById(R.id.username);
-        editTextPassword = findViewById(R.id.password);
+        txtUsername = findViewById(R.id.username);
+        txtPassword = findViewById(R.id.password);
         btnLogin = findViewById(R.id.btnLogin);
         txtToRegis = findViewById(R.id.txtToRegister);
 
@@ -40,11 +37,15 @@ public class LoginGuest extends AppCompatActivity {
             // check user input is correct or not
 //            if (validate())
             SQLiteDatabase db = databaseHelper.getReadableDatabase();
-            cursor = db.rawQuery("SELECT * FROM user WHERE name = '" + editTextUsername.getText().toString() + "' and password = '" + editTextPassword.getText().toString() + "'", null);
+            cursor = db.rawQuery("SELECT * FROM user WHERE name = '" + txtUsername.getText().toString() + "' and password = '" + txtPassword.getText().toString() + "'", null);
             if (cursor.getCount() == 1) {
                 cursor.moveToPosition(0);
+                String tampilName = cursor.getString(1);
                 Toast.makeText(getApplicationContext(), "Berhasil Login!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(LoginGuest.this, HomepageGuest.class);
+                intent.putExtra("name", tampilName);
+                startActivity(intent);
+
             }
         }));
 

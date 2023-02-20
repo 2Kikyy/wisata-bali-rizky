@@ -83,7 +83,7 @@ public class RegisterActivity extends AppCompatActivity {
                 valid = true;
             } else {
                 valid = false;
-                Toast.makeText(getApplicationContext(), "Username minimal harus 4 digit!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Username minimal harus 3 digit!", Toast.LENGTH_SHORT).show();
             }
         }
 
