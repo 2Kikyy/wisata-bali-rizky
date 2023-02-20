@@ -23,10 +23,16 @@
         <entry key="..\:/Users/USER/wisatabalirizky/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/USER/wisatabalirizky/app/src/main/res/layout/login_guest.xml" value="0.33" />
         <entry key="..\:/Users/USER/wisatabalirizky/app/src/main/res/layout/welcome_screen.xml" value="0.2" />
-        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_homepage_guest.xml" value="0.2" />
-        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_login_guest.xml" value="0.14871016691957512" />
-        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_pengguna.xml" value="0.14871016691957512" />
-        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/welcome_screen.xml" value="0.14871016691957512" />
+        <entry key="..\:/Users/User/StudioProjects/wisatabalirizky/app/src/main/res/layout/activity_homepage_guest.xml" value="0.13088012139605462" />
+        <entry key="..\:/Users/User/StudioProjects/wisatabalirizky/app/src/main/res/layout/activity_login_guest.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/StudioProjects/wisatabalirizky/app/src/main/res/layout/activity_pengguna.xml" value="0.22" />
+        <entry key="..\:/Users/User/StudioProjects/wisatabalirizky/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/User/StudioProjects/wisatabalirizky/app/src/main/res/layout/welcome_screen.xml" value="0.22" />
+        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_homepage_guest.xml" value="0.1675929884566054" />
+        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_login_guest.xml" value="0.1675929884566054" />
+        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_maintenance.xml" value="0.1675929884566054" />
+        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_pengguna.xml" value="0.1675929884566054" />
+        <entry key="..\:/wisatabalirizky/app/src/main/res/layout/activity_register.xml" value="0.1675929884566054" />
         <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/5 JAN 2023/wisatabalirizky/app/src/main/res/drawable/bg_outline_btn_welcome_screen.xml" value="0.196" />
         <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/5 JAN 2023/wisatabalirizky/app/src/main/res/drawable/imagebtn_custom1.xml" value="0.3135" />
         <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/5 JAN 2023/wisatabalirizky/app/src/main/res/drawable/rounded_shape.xml" value="0.196" />
@@ -34,6 +40,9 @@
         <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/5 JAN 2023/wisatabalirizky/app/src/main/res/layout/activity_homepage_guest.xml" value="0.33" />
         <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/5 JAN 2023/wisatabalirizky/app/src/main/res/layout/activity_login_guest.xml" value="0.26707132018209406" />
         <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/5 JAN 2023/wisatabalirizky/app/src/main/res/layout/welcome_screen.xml" value="0.26707132018209406" />
+        <entry key="..\:/xampp/htdocs/wisatabalirizky/app/src/main/res/layout/activity_login_guest.xml" value="0.1675929884566054" />
+        <entry key="..\:/xampp/htdocs/wisatabalirizky/app/src/main/res/layout/activity_maintenance.xml" value="0.1675929884566054" />
+        <entry key="..\:/xampp/htdocs/wisatabalirizky/app/src/main/res/layout/activity_register.xml" value="0.1675929884566054" />
       </map>
     </option>
   </component>
